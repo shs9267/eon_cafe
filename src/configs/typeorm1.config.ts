@@ -5,7 +5,7 @@ export const typeORMConfigUser : TypeOrmModuleOptions= {
     name: 'userDB',
     type: 'mysql',
     host: 'localhost',
-    port: 3305,
+    port: 3306,
     username: 'root',
     password: '2020wjswk',
     database: 'user',
@@ -13,5 +13,5 @@ export const typeORMConfigUser : TypeOrmModuleOptions= {
         User
       ],
     synchronize: true,
-    logging: true
+    //logging: true
 }
